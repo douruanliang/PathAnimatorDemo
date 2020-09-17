@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Ripple">
+        <attr name="ripple_anim_color" format="color"></attr>
+        <attr name="ripple_anim_fill_type" format="enum">
+            <enum name="fillRipple" value="0"></enum>
+            <enum name="strokeRipple" value="1"></enum>
+        </attr>
+        <attr name="radius" format="integer"></attr>
+        <attr name="strokeWidth" format="integer"></attr>
+    </declare-styleable>
+</resources>
